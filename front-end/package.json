@@ -1,0 +1,44 @@
+{
+  "name": "front-end",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd": "^4.8.0",
+    "axios": "^0.21.0",
+    "browser-detect": "^0.2.28",
+    "cra-template": "1.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.0",
+    "web-vitals": "^0.2.4"
+  },
+  "homepage": "./home",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && rm -rf ../public/home && mv build ../public/home",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "proxy": "http://localhost",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
