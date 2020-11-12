@@ -77,12 +77,12 @@ function App() {
             </p>
         }
 
-        <p className="os-name">操作系统：{browserInfo.os}<a className="other-versions">其它版本</a></p>
+        <p className="os-name">操作系统：{browserInfo.os}<a className="other-versions" href="https://github.com/hjylxmhzq/BrNat-client/releases" target="_blank">其它版本</a></p>
         <a
           className="App-link"
-          href={browserInfo.os.toLowerCase().includes('win') ?
-            "/assets/Easy-Online Client Setup 0.0.1.exe" :
-            "/assets/Easy-Online Client-0.0.1.dmg"}
+          href={browserInfo.os.toLowerCase().includes('os') ?
+            "/assets/Easy-Online Client.dmg" :
+            "/assets/Easy-Online Client Setup.exe"}
           target="_blank"
           rel="noopener noreferrer"
         >
