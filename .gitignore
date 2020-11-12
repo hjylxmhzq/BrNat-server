@@ -25,3 +25,4 @@ yarn-error.log*
 
 # data
 *.dat
+/public/assets/

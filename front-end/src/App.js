@@ -81,8 +81,8 @@ function App() {
         <a
           className="App-link"
           href={browserInfo.os.toLowerCase().includes('os') ?
-            "/assets/Easy-Online Client.dmg" :
-            "/assets/Easy-Online Client Setup.exe"}
+            "/assets/BrNat-Client.dmg" :
+            "/assets/BrNat-Client.exe"}
           target="_blank"
           rel="noopener noreferrer"
         >
